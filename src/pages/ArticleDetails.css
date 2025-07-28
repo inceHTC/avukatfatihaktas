@@ -1,0 +1,53 @@
+.article-details-container {
+  background-color: #ffffff; /* Anasayfa beyaz zemin gibi */
+  color: #333333; /* Yazılar için koyu gri */
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 80vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.article-details-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #f0a500; /* Sarı-gold başlık rengi */
+  text-align: center;
+}
+
+.article-details-date {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.article-details-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.article-details-content strong {
+  color: #b85c38; /* Kiremit kırmızısı ton */
+  font-weight: 700;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 3rem;
+  background-color: #f0a500;
+  color: #1e1e1e;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #d18f00;
+}

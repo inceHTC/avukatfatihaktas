@@ -1,0 +1,42 @@
+/* Normal ekranlar için mevcut stil bozulmaz */
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(113, 112, 112, 0.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SADECE MOBİL İÇİN */
+@media (max-width: 576px) {
+  .profile-col {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .profile-image {
+    max-width: 80% !important;
+    height: auto !important;
+  }
+}
+
+
+
+/* Tablet ve küçük ekranlar */
+@media (max-width: 992px) {
+  .profile-image {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+
+
